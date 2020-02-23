@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+
+body {
+  font-family: "Lato", Verdana, Geneva, sans-serif;
+  font-weight: 300;
+  color: #3c3c3d;
+  font-size: 1.5rem;
+  line-height: 1.44; }
+
+h1, h2, h3 {
+  letter-spacing: 1px;
+  font-weight: 700; }
+
+pre, code, samp, kbd {
+  background-color: #efeff0;
+  border: 1px solid #dededf;
+  border-radius: 2px;
+  font-size: 1.3rem; }
+
+code, samp, kbd {
+  padding: 0 4px; }
+
+pre {
+  padding: 8px; }
+  pre code, pre samp, pre kbd {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 13px 0 21px;
+  line-height: 1.2; }
+
+h1 {
+  font-size: 3.4rem;
+  font-weight: bold; }
+
+h2 {
+  font-size: 2.8rem; }
+
+a:link {
+  color: #216a9e;
+  text-decoration: none;
+  }
+
+a:visited {
+  color: purple; }
+
+a:hover, a:focus {
+  color: #184f74; }
+
+a:active {
+  color: #2a89c8; }
+
+img {
+  max-width: 100%; }
+
+hr, pre, blockquote {
+  margin-bottom: 13px; }
+
+p, img, ul, ol, dl, dd, figure, figcaption {
+  padding-bottom: 13px; }
+
+hr {
+  border-top: 1px solid #cdcdce;
+  border-bottom: 1px solid #efeff0;
+  border-left: none;
+  border-right: none; }
+
+blockquote {
+  margin-left: 13px;
+  border-left: 3px solid #cdcdce;
+  padding: 8px 13px; 
+}
+
+ol, ul {
+  margin-left: 21px; }
+
+.container {
+	padding-top: 60px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container ul {
+	margin-left: 0;
+}
+
+.container li {
+	font-size: 50px;
+	margin-right: 8px;
+}
+
+ol {
+  list-style-type: decimal; }
+
+ul {
+  list-style-type: none;
+  text-indent: 34px; 
+}
+
+ul.random, ul.random li {
+	display: inline;
+}
+
+li.result {
+	font-weight: 700;
+}
+
+li span {
+	color: #ddd;
+}
+
+footer {
+	color: #777;
+	text-align: center;
+	font-size: 15px;
+	width: 100%;
+	padding: 10px 0;
+	position: absolute;
+	bottom: 0;
+	background-color: #eee;
+}
+
+footer a, footer a:visited {
+	color: #6397e5;
+	text-decoration: none;
+	border-bottom: 1px dotted #999;
+}
+
+.button {
+  display: block;
+	margin: 50px auto 0 auto;
+	background-color: #fff;
+	color: #555;
+	border: 1px solid #ccc;
+	box-shadow: 0px 2px 4px #eee;
+	border-radius: 7px;
+	padding: 10px;
+	font-size: 18px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.button:hover {
+	background-color: #6397e5;
+	border: 1px solid #6397e5;
+	color: #fff;
+	box-shadow: 0px 0px 0px #eee;
+  cursor: pointer;
+}
+
+.button:focus {outline:0;}
+
+textarea, input { outline: none; }
+
+.break {clear: both;}
+
+/* Stu's additions
+------------------------------ */
+.chooseLists {
+  display: inline;
+  clear: both;
+  color: #6397e5;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 0.5em;
+  border-bottom: dotted 1px #999;
+}
+
+.chooseLists:hover {
+  cursor: pointer;
+}
+
+.listChooser {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.listChooser__input {
+  display: inline-block;
+}
+
+.listChooser__input + .listChooser__input {
+  padding-left: 10px;
+}
+
+.listChooser__input label {
+  font-size: 16px;
+}
+
+.listChooser__input select {
+  height: 16px;
+  line-height: 16px;
+}
+
+.wrapper--listChooser {
+  overflow: hidden;
+  background-color: #6397e5;
+  height: 0;
+}
+
+.open {
+  height: auto;
+}

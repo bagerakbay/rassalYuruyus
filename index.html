@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+	<HEAD>
+		<TITLE>Randomiser</TITLE>
+		<meta charset="utf-8">
+
+		<link href='https://fonts.googleapis.com/css?family=Roboto:300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="data.js"></script>
+		<script src="random.js"></script>
+		<script>
+			function loadXMLDoc() {
+			  var xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+				  <!-- document.getElementById("demo").innerHTML = this.responseText; -->
+				  lists['subjects'][$('#subjects').val()]['data'] =this.responseText.split("\n");
+				}
+			  };
+			  var url = "https://raw.githubusercontent.com/bagerakbay/rastgeleYuruyus/master/konular?" + new Date().getTime();
+			  xhttp.open("GET", url, true);
+			  
+			  xhttp.send();
+			}
+		</script>
+	</HEAD>
+	
+	<BODY onload="loadXMLDoc()">
+    <div class="wrapper--listChooser js-wrapper--listChooser">
+      <div class="listChooser">
+        <div class="listChooser__input">
+          <label for="mediums">Mediums</label>
+          <select id="mediums" name="mediums">
+          </select>
+        </div>
+        <div class="listChooser__input">
+          <label for="verbs">Verbs</label>
+          <select id="verbs" name="verbs">
+          </select>
+        </div>
+        <div class="listChooser__input">
+          <label for="subjects">Subjects</label>
+          <select id="subjects" name="subjects">
+          </select>
+        </div>
+      </div>
+    </div>
+		<div class="container">   	
+			<ul class="random">
+				<li id="array1" class="result"><span></span></li>
+<!--				<li>are</li> -->
+				<li id="array2" class="result"><span>42</span></li>
+<!--				<li>for</li> -->
+				<li id="array3" class="result"><span></span></li>
+			</ul>
+			<div class="break"></div>
+      <!--<button class="button js-hitMe">Hit me!</button>-->
+
+      <input type="button" value="Rastgele!" class="button" onclick="randomise();" />
+<!--
+      <p><a  href="" class="chooseLists js-chooseLists">Choose lists</a></p>
+-->
+		</div>
+		
+		
+		<div id="demo">
+		</div>
+		<footer>
+			<p><a href="http://jonnyburch.com">Jonny</a>'s Randomiser | <a href="https://github.com/jonnyburch/randomiser">GitHub</a></p>
+		</footer>
+	</BODY>
+</HTML>
+
+<!--  onClick="window.location.reload()" -->
