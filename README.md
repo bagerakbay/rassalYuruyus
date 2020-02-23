@@ -1,4 +1,4 @@
-# rastgeleYuruyus
+# Rassal Yürüyüş
 
 http://rastgele.bagerakbay.com
 
