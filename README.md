@@ -3,13 +3,8 @@
 http://rastgele.bagerakbay.com
 
 
-# Podcast
-
-[Spotify](https://open.spotify.com/show/7HQoUC6OToADlDNw6AN80m)
-
-# Kelimeler
-
-[Kelime Listesi](/konular)
+* Podcast Linki : [Spotify](https://open.spotify.com/show/7HQoUC6OToADlDNw6AN80m)
+* [Kelime Listesi](/konular)
 
 # Logo
 
