@@ -2,6 +2,9 @@
 
 http://rastgele.bagerakbay.com
 
+# Kelimeler
+
+[kelime listesi](/konular)
 
 # referanslar
 
