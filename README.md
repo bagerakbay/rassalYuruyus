@@ -6,6 +6,10 @@ http://rastgele.bagerakbay.com
 
 [kelime listesi](/konular)
 
+# Logo
+
+[Kod](/logo/rassalYuruyusLogo.pde)
+![Logo](/logo/17-36-50-204132.png)
 # referanslar
 
 https://github.com/jonnyburch/randomiser
