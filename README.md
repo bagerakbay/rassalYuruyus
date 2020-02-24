@@ -4,7 +4,7 @@ http://rastgele.bagerakbay.com
 
 
 * Podcast Linki : [Spotify](https://open.spotify.com/show/7HQoUC6OToADlDNw6AN80m)
-* [Kelime Listesi](/konular)
+* [Son Kelime Listesi](/konular)
 
 # Logo
 
