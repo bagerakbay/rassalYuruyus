@@ -12,7 +12,7 @@ http://rastgele.bagerakbay.com
 
 [Web versiyonu](https://www.openprocessing.org/sketch/842383)
 
-[Fontu: Archive](https://www.fontfabric.com/fonts/archive/) 
+[Font: Archive](https://www.fontfabric.com/fonts/archive/) 
 
 ![Logo](/logo/17-36-50-204132.png)
 # referanslar
