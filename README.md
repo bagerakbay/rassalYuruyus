@@ -2,9 +2,14 @@
 
 http://rastgele.bagerakbay.com
 
+
+# Podcast
+
+[Spotify](https://open.spotify.com/show/7HQoUC6OToADlDNw6AN80m)
+
 # Kelimeler
 
-[kelime listesi](/konular)
+[Kelime Listesi](/konular)
 
 # Logo
 
